@@ -3,7 +3,7 @@ from tkinter import filedialog
 import pygame
 import os
 
-#Daftar
+#Registrasi
 print('')
 print(50*'=')
 print('\tSELAMAT DATANG DI PROGRAM GENDING!')
@@ -38,7 +38,7 @@ while ask == 'y':
         file.write(f'Genre : {gen}')
     check = False
     while check == False:
-        ask = input('Apakah Kamu Ingin Registrasi Lagi? : ')
+        ask = input('Apakah Kamu Ingin Mengisi Data Diri Lagi? : ')
         check = ask == 'y','ya','yes' or ask == 'n','tidak','no'
 
 print('\nSelamat Datang Di Gending! \nSilahkan Masuk Ke Dalam Aplikasi')
